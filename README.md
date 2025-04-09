@@ -1,7 +1,7 @@
 # my little SRE Sandbox #1
 ***Please note:** this is not a PRD-ready implementation... A just-for-giggles prototype if you will.
 Read the story - it will make better sense...*
-## TL:DR
+## TL;DR
 While doing a log parsing *exercise*, I figured I'd expand on a more practical use-case and built a **Request Filter / Blocker** - that uses rules to block all traffic from an offending IP to a set URL after a set number of failures.
 Implemented on a Controller-level and as a Middleware and using In-Memory DB via EF6.
 
