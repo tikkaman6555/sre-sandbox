@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apacheLogParserCLI", "apacheLogParserCLI\apacheLogParserCLI.csproj", "{0FAB484E-C9A7-40C4-BDD9-4850BADE1DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sreSandbox", "SreSandboxAPI\SreSandboxAPI.csproj", "{0B7E98B6-64E6-406C-AFA1-21A02C76C3E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FAB484E-C9A7-40C4-BDD9-4850BADE1DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAB484E-C9A7-40C4-BDD9-4850BADE1DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAB484E-C9A7-40C4-BDD9-4850BADE1DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAB484E-C9A7-40C4-BDD9-4850BADE1DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7E98B6-64E6-406C-AFA1-21A02C76C3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7E98B6-64E6-406C-AFA1-21A02C76C3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7E98B6-64E6-406C-AFA1-21A02C76C3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7E98B6-64E6-406C-AFA1-21A02C76C3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE227173-B169-4C63-B5B8-C9C3C246D154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE227173-B169-4C63-B5B8-C9C3C246D154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE227173-B169-4C63-B5B8-C9C3C246D154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE227173-B169-4C63-B5B8-C9C3C246D154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
