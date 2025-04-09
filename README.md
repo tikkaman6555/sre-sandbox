@@ -34,7 +34,8 @@ It can be applied at the API Controller level and would be cool but not very pra
 A better approach would be to use it as a Middleware for the entire site. OR better yet, implement as reverse-proxy, which would scale much better in a farm. 
 ## What's where / contents
  - **Controllers**
-	 - `ResponderTestController.cs` - a `test API` that allows you to get response with a controlled status; implements    FailedRequestBlocker on the Controller-level - cool but not very practical at scale, though can be used on a one-off basis I suppose
+ 	 - `/Test`
+	    - `ResponderTestController.cs` - a `test API` that allows you to get response with a controlled status; implements    FailedRequestBlocker on the Controller-level - cool but not very practical at scale, though can be used on a one-off basis I suppose
 	 - `/FailedRequestBlocker`
 		 - `FailedRequestRulesDBController.cs` - manage blocking rules
 		 - `FailedRequestLogDBController.cs` - manage filter records
